@@ -163,7 +163,7 @@ from the EMPLOYEE_HR table. */
 SELECT*FROM EMPLOYEE_HR
 WHERE SALARY BETWEEN 60000 AND 80000;
 
-/* Q.9) Who are thhe top 5 highest-paid employees ? */
+/* Q.9) Top 5 Highest paid Employees */
 
 SELECT*FROM EMPLOYEE_HR
 ORDER BY SALARY DESC
@@ -239,18 +239,12 @@ SELECT*FROM EMPLOYEE_HR
 WHERE SALARY =(SELECT MAX(SALARY) FROM EMPLOYEE_HR
 WHERE SALARY <(SELECT MAX(SALARY) FROM EMPLOYEE_HR));
 
-/* Q.21) Top 5 Highest paid Employees */
-
-SELECT*FROM EMPLOYEE_HR
-ORDER BY SALARY DESC
-LIMIT 5;
-
-/* Q.22) which employees have more than 5 years of experience ? */
+/* Q.21) which employees have more than 5 years of experience ? */
 
 SELECT*FROM EMPLOYEE_HR
 WHERE EXPERIENCE > 5;
 
-/* Q.23) what is the total salary expense for each city ? */
+/* Q.22) what is the total salary expense for each city ? */
 
 SELECT CITY,SUM(SALARY) AS TOTAL_SALARY
 FROM EMPLOYEE_HR
