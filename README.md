@@ -7,13 +7,11 @@ HR Data Analysis project using SQL and Excel with interactive dashboard and key 
 This project focuses on analyzing employee data using SQL and Excel.  
 The goal is to extract meaningful insights such as employee distribution, salary analysis, and department performance.
 
----
 
 ## 🛠️ Tools & Technologies Used
 - SQL (MySQL)
 - Microsoft Excel (Pivot Tables, Charts, Dashboard)
 
----
 
 ## 🗂️ Dataset Information
 The dataset contains employee details including:
@@ -26,8 +24,6 @@ The dataset contains employee details including:
 - Join Date
 - Experience
 - Gender
-
----
 
 ## 🔍 Key SQL Analysis Performed
 
@@ -51,8 +47,6 @@ The dataset contains employee details including:
 - Second highest salary  
 - Employees with more than 5 years of experience  
 
----
-
 ## 📊 Excel Dashboard Features
 - KPI Cards (Total Employees, Avg Salary, Max Salary, Min Salary)
 - Department-wise employee count
@@ -60,20 +54,6 @@ The dataset contains employee details including:
 - Gender distribution (Pie Chart)
 - Interactive slicers (Department & Salary)
 
----
-
-## 📸 Screenshots
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Salary Analysis
-![Salary](screenshots/salary_analysis.png)
-
-### Department-wise Employees
-![Dept](screenshots/dept_count.png)
-
----
 
 ## 🎯 Key Insights
 - IT department has the highest number of employees  
@@ -82,21 +62,6 @@ The dataset contains employee details including:
 - Company is slightly male-dominated  
 - Salary distribution varies across departments  
 
----
-
-## 📁 Project Structure
-HR-Data-Analysis/
-│
-├── hr_project.sql
-├── HR_Data_Analysis_Project.xlsx
-├── screenshots/
-│ ├── dashboard.png
-│ ├── salary_analysis.png
-│ ├── dept_count.png
-│
-└── README.md
-
----
 
 ## 🎯 Objective
 To build a basic data analysis project using SQL and visualize insights through an Excel dashboard.
